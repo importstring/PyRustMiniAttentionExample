@@ -62,7 +62,10 @@ def visualize_attention(tokens, Q, K, K_T, scores, scaled_scores):
     screen.title("Attention: vector dot products")
     screen.bgcolor(BACKGROUND)
 
-    # Finish creating the window before drawing.
+    # Match the drawing canvas to the window to prevent clipping.
+    screen.screensize(canvwidth=1200, canvheight=850)
+
+    # Finish creating the window and canvas before drawing.
     screen.update()
     screen.tracer(0)
 
