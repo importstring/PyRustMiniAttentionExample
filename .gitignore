@@ -1,0 +1,17 @@
+# Python caches
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+
+# Rust build output
+rustml/target/
+
+# Loose compiled extensions
+rustml/python/rustml/*.so
+rustml/python/rustml/*.pyd
+
+# macOS metadata
+.DS_Store
