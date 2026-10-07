@@ -5,6 +5,11 @@ I decided to challenge myself and learn about how to integrate Rust and Python, 
 
 Additionally to see a comparison between Rust and Python, check out: `PyRust_Comparison.py`
 
+## Files
+
+`attention.py` --> turtle graphics and matrix calcs in Rust
+`PyRust_Comparison.py` --> Python doing what Rust was doing
+
 ## Installation guide
 
 This assignment includes a precompiled version of my `rustml`
