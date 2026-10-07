@@ -1,6 +1,6 @@
 # Python Attention Calculations with Rust
 
-https://github.com/importstring/PyRustMiniAttentionExample \n
+https://github.com/importstring/PyRustMiniAttentionExample \
 I decided to challenge myself and learn about how to integrate Rust and Python, two langauges I use interchangably. Thought linking them together would be a great learning oppertuntiy as both languages have unique advantages and disadvantages.
 
 Additionally to see a comparison between Rust and Python, check out: `PyRust_Comparison.py`
