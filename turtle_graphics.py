@@ -53,9 +53,17 @@ def visualize_attention(tokens, Q, K, K_T, scores, scaled_scores):
     step = 0
 
     screen = turtle.Screen()
-    screen.setup(width=1200, height=850)
+    screen.setup(
+        width=1200,
+        height=850,
+        startx=None,
+        starty=None,
+    )
     screen.title("Attention: vector dot products")
     screen.bgcolor(BACKGROUND)
+
+    # Finish creating the window before drawing.
+    screen.update()
     screen.tracer(0)
 
     pen = turtle.Turtle(visible=False)
